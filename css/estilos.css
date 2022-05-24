@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Sketchzone;
+    src: url('../fonte/soviet_program/SovietProgram.ttf');
+}
+:root { 
+    --cor_fundo: #11c2da;
+    --cor_paragrafo:#252e81;
+    --cor_titulo:#FFFFFF;
+    --cor_link:#ec2004;
+    --fonte_principal:Sketchzone;
+    --fonte_tamanho:16px;
+}
+
+body { 
+    font-family: var(--fonte_principal);
+    width: 500px;
+    background-color:var(--cor_fundo);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.imagem {
+    text-align: center;
+}  
+
+h1 {
+    font-family: Sketchzone;
+    color:var(--cor_titulo);
+}
+
+ul li a { color:var(--cor_paragrafo);
+text-decoration: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+div { 
+    text-align: center ;
+}
+
+p{
+    color: var(--cor_paragrafo);
+    text-align: justify;
+ font-family: var(--fonte_principal);
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    font-size: 20px ;
+    font-weight: bold;
+
+}
+
+img {
+    border-radius: 10%;
+}
